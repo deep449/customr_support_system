@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: e-commerce-bot
+Version: 0.0.1
+Author: Deepak
+Author-email: deepakdabi291@gmail.com
+Requires-Dist: langchain-astradb
+Requires-Dist: langchain
+Requires-Dist: pandas
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

@@ -1,0 +1,3 @@
+langchain-astradb
+langchain
+pandas
