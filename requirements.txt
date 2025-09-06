@@ -1,6 +1,7 @@
 langchain_astradb
 langchain_core
 pandas
+python-dotenv
 
 
 -e .
