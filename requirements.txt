@@ -3,6 +3,11 @@ langchain_core
 pandas
 python-dotenv
 langchain_google_genai
-
+langchain-community
+langchain-groq
+fastapi
+uvicorn
+python-multipart
+jinja2
 
 -e .
