@@ -27,17 +27,17 @@ class data_converter:
 
         #print("************below is my product list**************")
         #print(product_list)
-        docs = []
+        docs=[]
         for entry in product_list:
             metadata={"product_name":entry["product_name"],
                       "product_rating":entry["product_rating"],
                       "product_summary":entry["product_summary"]
                       }
-            doc = Document(page_content=entry["product_review"],metadata=metadata)
+            doc=Document(page_content=entry["product_review"],metadata=metadata)
             docs.append(doc)
-            print(docs[0])
+            #print(docs[0])
 
-        #return docs
+        return docs
 
 
 
